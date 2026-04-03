@@ -1,0 +1,3 @@
+Arrays and Strings 
+Leetcode 228
+Move the pointer continuously and find the range according to the given question
