@@ -1,4 +1,0 @@
-Concept: HashMap and sets 
-Use a set to store the jewels.
-Then run a for loop to increment stones.
-Leetcode 771
