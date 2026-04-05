@@ -1,0 +1,2 @@
+The Core Insight — Right Shift Recurrence
+Every number i is just some smaller number with one extra bit appended
