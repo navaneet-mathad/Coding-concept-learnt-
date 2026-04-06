@@ -1,0 +1,5 @@
+Valid anagram:
+Hashmaps
+Store the count of both the strings in hashmaps
+then compare them.
+if a word is made out of the same letters, return True
