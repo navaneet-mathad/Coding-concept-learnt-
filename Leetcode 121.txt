@@ -1,0 +1,7 @@
+Leetcode 121:
+2 pointers technique
+Buy and sell stock
+Assign left to 0th index and right to 1st index and maxP = 0
+then calculate actual profit. return max(maxP,profit)
+then make l=r
+and increment r (r+=1)
