@@ -1,2 +1,0 @@
-Leetcode 2678:
-Just use slicing within a for loop and increment the variable "total" with total's value
