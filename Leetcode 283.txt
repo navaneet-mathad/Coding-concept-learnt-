@@ -1,0 +1,4 @@
+Leetcode 283:
+initialize a variable to 0. Run a for loop.
+if that index in the array is not 0, swap with the variable
+increment the variable by 1 
