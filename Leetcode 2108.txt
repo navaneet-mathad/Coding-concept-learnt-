@@ -1,4 +1,0 @@
-Leetcode 2108:
-Check if palindrome by slicing using python
-Then return the first palindrome in the list
-and match the return case
