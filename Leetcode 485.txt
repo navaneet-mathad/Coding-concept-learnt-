@@ -1,0 +1,5 @@
+Leetcode 485:
+make 2 separate variables
+then run a for loop 
+return max_count
+that will give u the count of max consecutive ones
