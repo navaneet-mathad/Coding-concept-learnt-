@@ -1,0 +1,5 @@
+Leetcode 27:
+Use 2 pointers approach
+then nums[k] = nums[i] to modify the array
+increment k by 1 later
+then return k
