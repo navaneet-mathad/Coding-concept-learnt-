@@ -1,0 +1,1 @@
+just use python ka inbuilt function
