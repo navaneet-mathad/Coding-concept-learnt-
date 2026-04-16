@@ -1,3 +1,0 @@
-Leetcode 448:
-use a hash set
-and then normal for loop iteration
