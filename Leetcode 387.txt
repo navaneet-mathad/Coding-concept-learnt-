@@ -1,0 +1,2 @@
+Leetcode 387:
+just run a for loop in string s. then use .count and .index methods and then return that index
