@@ -1,0 +1,4 @@
+Leetcode 2215:
+use a hash set and then use:
+return [list(set1 - set2), list(set2 - set1)]
+this will return the list of distinct elements in each list and automatically convert into 2 diff lists.
