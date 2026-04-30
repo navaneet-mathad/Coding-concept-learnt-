@@ -1,0 +1,2 @@
+Leetcode 136:
+just use a for loop and run it using .count() function in python.
