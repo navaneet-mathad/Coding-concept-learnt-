@@ -1,0 +1,5 @@
+Leetcode 258:
+divide the number multiple times in a variable in a loop until it reaches single digits.
+then the for loop will again add them and again..
+then store the result in num
+return num
