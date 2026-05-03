@@ -1,0 +1,2 @@
+ return max(-(2**31), min(res, 2**31 - 1))
+this is known as a "clamp" which is used when unsigned int and stuff is asked.
