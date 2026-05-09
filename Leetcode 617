@@ -1,0 +1,27 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+        if (root1==null) return root2;   //base case
+        if (root2==null) return root1;   //base case 
+
+        root1.val += root2.val;    //root2 value remains same, root1 is updated to root1+root2 (for root nodes)
+        root1.left = mergeTrees(root1.left, root2.left);  //this is for the left child for the root node (results in the sum of left children)
+        root1.right = mergeTrees(root1.right, root2.right);   //this is for the right child for the root node (results in the sum of right children)
+        
+        return root1;  //as this is the final storage location and returns the sum of trees
+    }
+}
