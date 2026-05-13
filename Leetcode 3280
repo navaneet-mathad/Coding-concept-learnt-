@@ -1,0 +1,12 @@
+class Solution:
+    def convertDateToBinary(self, date: str) -> str:
+        year1 = int(date[0:4])     //this is for type casting
+        year11 = bin(year1)[2:]    // this is to convert to binary .... [2:] is for removing the 1st digits '0b' when it converts to binary
+        month1 = int(date[5:7])
+        month11 = bin(month1)[2:]
+        date1 = int(date[8:])
+        date11 = bin(date1)[2:]
+        return year11+"-"+month11+"-"+date11
+
+//bin(n) usually returns 0bxxxx
+//u dont want 0b so u use bin(n)[2:] to remove that 0b
