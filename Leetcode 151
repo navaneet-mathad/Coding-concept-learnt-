@@ -1,0 +1,6 @@
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        words = s.split()
+        return " ".join(words[::-1])   //this will return the string backwards
+
+// " " there is a blank between the commas because we need to handle the white spaces too
