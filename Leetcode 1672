@@ -1,0 +1,2 @@
+use numpy library to return the max of each row after selecting axis = 1
+then return int(max_value)
