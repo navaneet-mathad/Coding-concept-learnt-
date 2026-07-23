@@ -1,0 +1,4 @@
+Create a DataFrame from List:
+col = ['student_id','age']  #create a list of the column names.
+    df = pd.DataFrame(student_data,columns=col)  @add that list as updated columns and return the dataframe.
+    return df
